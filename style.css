@@ -1,6 +1,14 @@
 .jumbotron {
    background: #333333 !important;
    color: white;
-   margin: 0 20px;
    text-align: center;
+}
+
+body {
+    background: url('http://epicwallpaperz.com/wallpaper-hd/black-wallpapers-hd-On-wallpaper-hd.jpg')no-repeat center center fixed; 
+    height: 100%;
+    color: white;
+    max-width: 960px;
+    margin-left: 25%;
+    margin-right: 25%%;
 }
