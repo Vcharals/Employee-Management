@@ -19,16 +19,13 @@ $("#btn-submit").on("click", function (event) {
     console.log("hehhehe");
     var employeeName = $("#employeeName").val();
     var startDate = $("#startDate").val();
-    var monthsWorked = $("#monthsWorked").val();
     // console.log(employeeName + startDate);
 
     var dataToPush = {
         "employeeName": employeeName,
         "startDate": startDate,
-        "monthsWorked": monthsWorked,
     }
     database.ref().push(dataToPush);
-    $("#role").val("")
     $("#startDate").val("")
     $("#monthlyRate").val("")
     $("#employeeName").val("")  
