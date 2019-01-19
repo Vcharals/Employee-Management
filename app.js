@@ -28,4 +28,9 @@ $("#btn-submit").on("click", function (event) {
         "monthsWorked": monthsWorked,
     }
     database.ref().push(dataToPush);
+    $("#role").val("")
+    $("#startDate").val("")
+    $("#monthlyRate").val("")
+    $("#employeeName").val("")  
 });
+
